@@ -1,0 +1,41 @@
+body{
+	width:100%;
+	height:100%;
+	background-color:#669999;
+	padding: 5% 5% 5% 5%;
+	}
+	h3{ color:white;}
+	a{color:white; font-weight:bold; }
+	body > *{color:white; }
+input,select,textarea{display:block;
+margin-top:2%;  }
+
+textarea{color:#669999;}
+select{ color:white; background-color:#33dbcc; border: 1px solid white; }
+input[type="submit"]{
+background-color:#33dbcc; font-weight:bold;
+width:70px;
+height:50px;
+border-radius:15px;
+border:1px solid white;
+color:white;
+}
+input[type="submit"]:hover, select:hover{background-color:#33cc99; }
+#errDiv{
+	text-align:center;
+width:80%; 
+color:red; font-weight:bold;
+overflow-wrap: break-word;
+    word-break: break-word;
+    -ms-word-break: break-word;
+background-color:#33dbcc;
+}
+#successDiv{
+	text-align:center;
+width:80%; 
+color:white; font-weight:bold;
+overflow-wrap: break-word;
+    word-break: break-word;
+    -ms-word-break: break-word;
+background-color:#33dbcc;
+}

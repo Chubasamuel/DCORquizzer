@@ -1,0 +1,53 @@
+body{
+
+	width:100%;
+
+	height:100%;margin:0;
+}
+	#ovAll{
+	background-color:#669999;
+
+	padding: 1% 5% 5% 5%;
+color:white; font-weight:bold;
+
+overflow-wrap: break-word;
+
+    word-break: break-word;
+
+    -ms-word-break: break-word;
+
+	}
+
+	h3{ color:white;}
+
+	body > *{color:white; }
+
+input,select,textarea{display:block;
+
+margin-top:2%;  }
+
+
+
+textarea{color:#669999;}
+
+input[type="submit"],button{
+
+background-color:#33dbcc; font-weight:bold;
+
+/*width:70px;
+
+height:50px;
+*/
+border-radius:15px;
+
+border:1px solid white;
+
+color:white;
+
+}
+
+input[type="submit"]:hover, button:hover{background-color:#33cc99; }
+@media print {
+body {-webkit-print-color-adjust: exact;}
+}
+
