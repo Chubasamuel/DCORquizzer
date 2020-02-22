@@ -36,35 +36,27 @@ negative marking</span></span><br /><br />
 <style>
 body{position:absolute; }
 </style>
+<?php
+$file_ques=fopen("./quesAns/mock.ques.txt","r");
 
+echo(fread($file_ques,filesize("./quesAns/mock.ques.txt")));
+fclose($file_ques);
 
-<div id="questionAndAnswerMCQ" style="display:none">(1) Question one, says<br />
-#Nigeria is an independent country<br />
-#Nigeria is in Africa
-<br />
-#Nigeria is not in Economic recession as at year 2018##<br />
-(2) Concerning Africa,<br />
-#It is a continent<br />
-#It is the largest of its category<br />
-#Nigeria is in it<br />
-#Brazil is in it## DCOR surname #Chuba#Samuel#Jeremiah#Justice" </div>
+?>
 
-
-<div id="questionAndAnswerBOP" style="display:none;"> (1) Surname of Nigerian president is
-#Buhari#Mohammadu#Gabriel#Cordelita##
-(2) Nnamdi Azikiwe University is in
-#Nigeria#South eastern part of Nigeria#Cameroon#Nnewi#Las Vegas##
-(3) Capital city of United States is
-#Abuja#Jerusalem#Washington DC# Onitsha#Abidjan#Free town" </div>
 <div id="mainPMCQ" style="display:none"></div> 
 <div id="mainPBOP" style="display:none"></div> 
 <script src="DCORdiscussionClassTestSettings.js"></script>
 <script src="DCORdiscussionClassTestSettingsHandler.js"></script>  
+<?php
+
+$file_ans=fopen("./quesAns/mock.ans.txt","r");
+echo(fread($file_ans,filesize("./quesAns/mock.ans.txt")));
+fclose($file_ans);
 
 
-<input type="text" style="display:none" id="answerRefMCQ" value="TTFTFTFFFTF"/>
+?>
 
-<input type="text" style="display:none" id="answerRefBOP" value="012"/>
 
 <button onclick="markIt()" id="submitButton" style="display:none">Submit</button>
 <button onclick="startTest()" id="startButton"> Start test </button>

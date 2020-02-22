@@ -1,13 +1,14 @@
-/*************** Script written by
- Jeremiah Chuba Samuel.
+/*************** 
+Script written by Jeremiah Chuba Samuel.
 
 For academic purposes only.
 
-I will not be responsible for any harm(s)/damage(s) done by the erroneous modification(s) of this software. 
+I will not be responsible for any harm(s)/damage(s) done by the erroneous modification(s) or usage iof this software. 
 
 For advice on how any part of this software works,
 refer your request(s) to 
-Chubasamuel@gmail.com 
+chubasamuel@gmail.com 
+
  ***************/
  
 var conRedP; 
