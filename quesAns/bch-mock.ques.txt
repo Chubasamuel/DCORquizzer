@@ -1,0 +1,457 @@
+<div id="questionAndAnswerMCQ" style="display:none">1) Which of these is an/are aldosugar(s)
+#(a)Ribulose
+#(b)Ribose
+#(c)Glucose
+#(d)glyceraldehyde##
+
+2) Which of these is an/are ketosugar(s)
+#(a)Erythrose
+#(b)Erythrulose
+#(c)Ribulose
+#(d)Fructose##
+
+3) Which of these formular(s) represent(s) monosaccharides
+#(a)C3H6O3
+#(b)C4H7O4
+#(c)C5H9O5
+#(d)C6H12O6##
+
+4) Which of these is/are true
+#(a)Glucose is a monosaccharide
+#(b)sucrose is a reducing sugar
+#(c)lactose is a disaccharide
+#(d)sucrose is sweeter than invert sugar##
+
+5) Which of these is a/are Ketodisaccharide(s)
+#(a)maltose
+#(b)sucrose
+#(c)lactose
+#(d)lactulose##
+
+6) Which of these is/are true
+#(a)maltotriose is an oligosaccharide
+#(b)oligosaccharides yield 3-10 monosaccharide on hydrolysis##
+#(c)Polysaccharides yield more than 10 monosaccharide on hydrolysis##
+#(d)inulin is a homoglycan##
+
+7) The D&L series of a sugar is/are determined by
+#(a)The number of carbon atoms
+#(b)The reducing ability
+#(c)The number of isomers
+#(d)The orientation of the H & OH groups around the refrence carbon atom##
+
+8) Optical activity is/are confered by 
+#(a)Presence of assymetric carbon atom
+#(b)Number of carbon atom
+#(c)Number of hydroxyl group
+#(d)being a number of the D&L series##
+
+9) A hydronium ion:
+#(a) has the structure H3O+
+#(b) is a hydrated hydrogen ion
+#(c)  is a hydrated proton
+#(d) is the usual form of one of the dissociation products of water in solution##
+
+10) The pH of a solution of 1 M HCl is:
+#(a) 0
+#(b) 0.1
+#(c) 1
+#(d) 0.01##
+
+11) Which of the following statements about buffers is true?
+#(a) A buffer composed of a weak acid of pKa= 5 is stronger at pH 4 than at pH 6
+#(b) At pH values lower than the pKa, the salt concentration is higher than that of the acid
+#(c) The pH of a buffered solution remains constant no matter how much acid or base is added to the solution
+#(d) When pH = pKa, the weak acid and salt concentrations in a buffer are equal##
+
+12) A lipid is formed by the condensation reactions between
+#(a)Carbon and hydrogen
+#(b)Fatty acids and alcohol
+#(c)Fatty acids and amino acids
+#(d)Fatty acids and amines##
+
+13) Which of the following statement is/are wrong regarding lipids
+#(a)Lipids are insoluble in water
+#(b)Lipids are insoluble in ethanol
+#(c)Lipids are soluble in benzene
+#(d)Lipids are insoluble in chloroform##
+
+14) Lipids are important constituents of
+#(a)nucleus
+#(b)ribosome
+#(c)both a and b
+#(d)biological membranes##
+
+15) Which of the following is a derived lipid
+#(a)Fats
+#(b)Oils
+#(c)Steroids
+#(d)waxes##
+
+16) Fats consists of 
+#(a)alcohol linked by ester bonds to 3 fatty acids
+#(b)glycerol molecule linked by ester bonds to 3 fatty acids
+#(c)glycerol molecule linked by ester bonds to a fatty acid
+#(d)glycerol molecule linked by ester bonds to 4 fatty acids##
+
+17) Compounds with carbohydrates along with fatty acids are called
+#(a)Simple lipids
+#(b)waxes
+#(c)Glycolipids
+#(d)phopholipids##
+
+18) Cardiolipin is a 
+#(a)Glycolipid
+#(b)phopholipid
+#(c)Simple lipid
+#(d)none of these##
+
+19) Cerebrosides are glycolipids that are important constituent of
+#(a)biological membrane
+#(b)lung
+#(c)brain
+#(d)bones##
+
+20) Phytosterol include 
+#(a)ergosterol
+#(b)stigmasterol
+#(c)both a and b
+#(d)cholesterol##
+
+21) Which of the following is/are not a derivative of cholesterol
+#(a)Steroid hormones
+#(b)Vitamin E
+#(c)Bile salts
+#(d)Vitamin D##
+
+22) The most common monomer of carbohydrates is a molecule of
+#(a)glucose
+#(b)maltose
+#(c)amylose
+#(d)amylopectin##
+
+23) The six most common atoms in organic molecules are
+#(a)C , H, O, He, Ca and S
+#(b)C ,H, O, N, P and S
+#(c)C ,H, O, Mg, Mn and S
+#(d)C, H, O, N, P and K##
+
+24) Cholesterol is a /an
+#(a)saturated fat
+#(b)unsaturated fat
+#(c)steroid 
+#(d)Essential oil##
+
+25) The structure of a protein can be denatured by
+#(a)heat
+#(b)the presence of oxygen
+#(c)the polar bonds of water molecules
+#(d)the presence of carbon dioxide gas##
+
+26) The part of a DNA molecule that varies among DNA molecules is its
+#(a)sugars
+#(b)phosphates
+#(c)glycerol
+#(d)nitrogen bases##
+
+27) Which is/are (a) linear polysaccharide?
+#(a)Glycogen
+#(b)Cellulose
+#(c)Starch
+#(d)Amylose##
+
+28) Ribose is a pentose sugar found in
+#(a)NAD
+#(b)FAD
+#(c)RNA
+#(d)DNA##
+
+29) The most abundant monosaccharide in nature is
+#(a)Lactose
+#(b)Glucose
+#(c)Maltose
+#(d)Sucrose##
+
+30) Which of the following is/are (a) polysaccharide(s)?
+#(a)Glucose
+#(b)Glycogen
+#(c)Amylose
+#(d)Lactose##
+
+31) The first person to discover vitamins was
+#(a) Jenner
+#(b) Funk
+#(c) Calvin
+#(d) Mellanby##
+
+32) Scurvy is due to the deficiency of
+#(a) Vitamin A
+#(b) Vitamin B
+#(c) Vitamin D
+#(d) Vitamin C##
+
+33) Osteomalacia in adults is caused due to the deficiency of
+#(a) Vitamin A
+#(b) Vitamin E
+#(c) Vitamin D
+#(d) Vitamin C##
+
+34) Xerophthamia in man is caused by the deficiency of
+#(a) Vitamin K
+#(b) Vitamin A
+#(c) Vitamin D
+#(d) Vitamin C##
+
+35) Cobalt containing vitamin is
+#(a) Vitamin B2
+#(b) Vitamin B6
+#(c) Vitamin B12
+#(d) Vitamin B5##
+
+36) Which of the following pairs is not correctly matched?
+#(a) Vitamin B4- Pellagra
+#(b) Vitamin B12 - Pernicious anaemia
+#(c) Vitamin C- scurvy
+#(d) Vitamin B6 - Beriberi##
+
+37) Vitamins often act as
+#(a) apoenzymes
+#(b) holoenzymes
+#(c) co fators
+#(d) co enzymes##
+
+38) Castle intrinsic factor is connected with internal absorption of
+#(a) Pyridoxine
+#(b)Riboflavin
+#(c) Thiamine
+#(d) Cobalamine##
+
+39) A steroid vitamin is
+#(a) A
+#(b) D
+#(c) E
+#(d) K##
+
+40) Vitamin E prevents
+#(a) Formation of Vitamin D in Skin
+#(b) Secretion of Superfluous enzymes
+#(c) Keratinisation of epidermal cells
+#(d) Absorption of harmful enzymes##
+
+41) Which of the following is amino acid has indole ring in its side chain
+#(a)Phenyl alanine
+#(b)Tyrosine
+#(c)Histidine
+#(d)tryptophan##
+
+42) Amino acids with hydroxyl OH group include
+#(a)serine
+#(b)threonine
+#(c)tyrosine
+#(d)all of these##
+
+43) Which of the following amino acid has amide group in its side chain
+#(a)Cysteine
+#(b)lysine
+#(c)glutamine
+#(d)isoleucine##
+
+44) Aspartamine, an artificial sweetener is made of
+#(a)Aspartate and glutamate
+#(b)Asparagine and Glutamate
+#(c)Aspartate and phenylalanine
+#(d)Aspartate and glycine##
+
+45) Which of the following amino acids are considered as semi-essential amino acids
+#(a)Asparagine and histidine
+#(b)Tryptophan and arginine
+#(c)Histidine and arginine
+#(d)Histidine, arginine and tryptophan##
+
+46) D-amino acids occur naturally in small amounts in
+#(a)Bacterial peptidoglycan cell wall
+#(b)Fungal chitinous cell wall
+#(c)Cellulosic plant cell wall
+#(d)All of these##
+
+47) Which of the following is an imino acid
+#(a)glycine
+#(b)Proline
+#(c)lysine
+#(d)histidine##
+
+48) Tryptophan is the precursor of plant
+#(a)hormone
+#(b)auxin
+#(c)cytokinin
+#(d)gibberellin##
+
+49) Ornithine and citrulline for urea synthesis are derivatives of
+#(a)cysteine
+#(b)arginine
+#(c)Histidine
+#(d)methionine##
+
+50) Which of the following is considered as the 21st amino acid
+#(a)hydroxylysine
+#(b)Ornithine
+#(c)citrulline
+#(d)selenocysteine##
+
+51) Which of the statement is true regarding Km
+#(a) It is the measure of the stability of the ES complex
+#(b) It is the measure of the stability of the affinity of an enzyme for its substrate
+#(c) A high Km indicates weak substrate binding
+#(d) all of these##
+
+52) Any molecule which acts directly on an enzyme to lower its catalytic rate is called
+#(a) Regulator
+#(b) Repressor
+#(c) Inhibitor
+#(d) Moderator##
+
+53) Which of the following statements are true regarding enzyme inhibition?
+#(a) It may be reversible or irreversible
+#(b) Reversible can be competitive or non-competitive
+#(c) both a and b
+#(d) it is always reversible##
+
+54) The effect of a reversible competitive inhibitor can be nullified by
+#(a) increasing the product concentration
+#(b) increasing the substrate concentration
+#(c) increasing the temperature
+#(d) none of these##
+
+55) The action of pepstatin on the enzyme rennin is an example of
+#(a) competitive inhibition
+#(b) reversible competitive inhibition
+#(c) reversible non-competitive inhibition
+#(d) irreversible inhibition##
+
+56) Enzymes are chemically
+#(a) Proteins
+#(b) Proteins and nucleic acids
+#(c) Proteins and rarely ribonucleic acids
+#(d) Proteins and rarely carbohydrates##
+
+57) Which of the statements regarding enzymes is false?
+#(a)Enzymes are specific
+#(b)Enzymes may be used many times for a specific reaction
+#(c)Enzymes are proteins that function as catalysts
+#(d)Enzymes provide activation energy for reactions##
+
+58) The catalytic activity of two different enzymes can be compared by the
+#(a)Km value
+#(b)pH of optimum value
+#(c)molecular size of the enzyme
+#(d)formation of the product##
+
+59) The relationship between an enzyme and a reactant molecule can best be described as:
+#(a)a temporary association
+#(b)non complementary binding
+#(c)one in which the enzyme is changed permanently
+#(d)a permanent mutual alteration of structure##
+
+60) The active site of an enzyme
+#(a)remains rigid and does not change shape
+#(b)is found at the center of globular enzymes
+#(c)contains amino acids without sidechains
+#(d)None of these##
+
+61) The active site of an enzyme differs from an antibody-antigen binding site in that the enzyme active site
+#(a)is complementary to a specific ligand
+#(b)contains amino acids without sidechains
+#(c)catalyzes a chemical reaction
+#(d)contains modified amino acids##
+
+62) The transition state of a catalyzed reaction is
+#(a)lower in energy than that of an uncatalyzed reaction
+#(b)lower in energy than the reaction substrate
+#(c)bound very weakly to the catalyst
+#(d)a highly-populated intermediate on the reaction pathway##
+
+63) The substrate Km in an enzyme-catalyzed reaction
+#(a)is usually less than Kd, the dissociation constant
+#(b)cannot be equal to Kd
+#(c)is never less than Kd
+#(d)is estimated from the Y-intercept of a Lineweaver-Burk plot##
+
+64) An allosteric inhibitor of an enzyme usually
+#(a)denatures the enzyme
+#(b)causes the enzyme to work faster
+#(c)binds to the active site
+#(d)participates in feedback regulation##
+
+65) An uncompetitive inhibitor of an enzyme catalyzed reaction 
+#(a)is without effect at saturating substrate concentration
+#(b)can actually increase reaction velocity in rare cases
+#(c)binds to the Michaelis complex and decreases Vmax
+#(d)All of these##
+
+66) Which of the following common drugs is not a specific enzyme inhibitor
+#(a)sulfonilamide
+#(b)methotrexate
+#(c)iodine
+#(d)All of these##
+
+67) Hydrolysis product of starch include
+#(a)Amylodextran
+#(b)Achrodextrin
+#(c)maltose
+#(d)erythrodextrin##
+
+68) Branched chain homoglycan include
+#(a)Amylose
+#(b)Glycogen
+#(c)Amylopectin
+#(d)cellulose##
+
+69) Unbranched chain homoglycans include
+#(a)Cellulose
+#(b)Glycogen
+#(c)Amylose
+#(d)dextran##
+
+70) Which of these is/are true about mucopolysaccharides
+#(a)They are also known as glycosaminoglycans
+#(b)They contain uronic acid and amino sugars
+#(c) Keratan sulfate is a mucopolysaccharide
+#(d)Keratan sulfate do not contain uronic acid##
+
+71) Aspartame is a product of
+#(a)Aspartic acid & glutamate
+#(b)Aspartate & glutamine
+#(c)Aspartic acid & phenylalanine
+#(d)Asparagine & Alanine
+
+72) Derived lipids include
+#(a)steroids
+#(b)fat soluble vitamins
+#(c)water soluble vitamins
+#(d)Hormones##
+
+73) Which of these is/are not correctly matched
+#(a)Oleic acid - C17H33COOH
+#(b)Linoleic acid - C17H31COOH
+#(c)Linolenic acid - C18H31COOH
+#(d)Arachidonic acid - C19H31COOH##
+
+74) Which of these is/are true about free energy ^G
+#(a)It is the energy available to do work
+#(b)It predicts the direction in which a reaction will spontaneously proceed
+#(c)When ^G=0, the reactants are in equilibrium
+#(d)It is a variable##
+
+75) When ^G is negative
+#(a)There is a net loss of energy
+#(b)The reaction is exergonic
+#(c)There is a net gain of energy
+#(d)The reaction is endergonic##</div>
+
+
+<div id="questionAndAnswerBOP" style="display:none;"> (1) Surname of Nigerian president is
+#Buhari#Mohammadu#Gabriel#Cordelita##
+(2) Nnamdi Azikiwe University is in
+#Nigeria#South eastern part of Nigeria#Cameroon#Nnewi#Las Vegas##
+(3) Capital city of United States is
+#Abuja#Jerusalem#Washington DC# Onitsha#Abidjan#Free town" </div>

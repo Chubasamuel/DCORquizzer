@@ -281,9 +281,57 @@ else if(scoreB<40){colorP="red"}
 
 document.getElementById("scoreBoard").style.display="block";
 
+document.getElementById("scoreBoard").innerHTML="<div id=\"progress\" style=\"width:80%;height:5%;background-color:white;color:green;\"><center><span id=\"progress_display\"></span></center></div>";
+
+//upload_score with progress bar
+var progressBar = document.getElementById("progress");
+
+var  display_p = document.getElementById("progress_display");
+function upload_score(data) {
+  var xhr = new XMLHttpRequest();
+  xhr.open("POST", "upload_score.php", true);
+  if (xhr.upload) {
+    xhr.upload.onprogress = function(e) {
+      if (e.lengthComputable) {
+        progressBar.style.width = Math.floor((e.loaded/e.total)*100)+"%";
+        display_p.innerHTML = Math.floor((e.loaded / e.total) * 100) + '%';
+      }
+    }
+    xhr.upload.onloadstart = function(e) {
+      progressBar.style.width = 0;
+	    uploaded_prog=0;
+      display_p.innerHTML = '0%';
+    }
+    xhr.upload.onloadend = function(e) {
+      progressBar.style.width = e.loaded;
 document.getElementById("scoreBoard").innerHTML="<br />"+" Your scores are:<br /><hr />"+"<font style=\"color:"+colorP+"\">"+scoreMCQX+scoreBOPX+"<hr />Score [no negative marking] : "+scoreA+"%<hr />Overall score :"+scoreB+"%";
 
+    }
+  }
+  xhr.send(data);
+}
+
+function buildFormData() {	
+  var f_data=new FormData();
+
+	f_data.append("quizCode",quizCode);
+	f_data.append("bestOption",bestOption);
+	f_data.append("multipleChoice",multipleChoice);
+
+	f_data.append("scoreBOP",scoreBOP);
+	f_data.append("scoreMCQ",scoreMCQ);
+	f_data.append("scoreOverall_n",scoreA);
+	f_data.append("scoreOverall",scoreB);
+	f_data.append("optionBOP",optionsArrayBOP);
+	f_data.append("optionMCQ",optionsArray);
+  return f_data;
+}
+
 window.location="#scoreBoard";
+try{
+upload_score(buildFormData());}
+catch(e){alert(e);}
+
 }}
 function justifyDev(){try{ if(devNod!=="Jeremiah Chuba Samuel"){document.body.innerHTML="<center><font color=\"red\">"+"We are sorry!<br />Change of developer\'s name unsuccessful...</font></center>";} } catch(e){alert(e)}}
 var tTimet=timeAllowed.toString().split("#");
@@ -305,12 +353,12 @@ document.getElementById("timerP").innerHTML="<center><span style=\"font-weight:b
 
 function timeTest(){ 
 var hrH=hr;var minH=min;var secH=sec;
-if(sec>=0){sec-=1}
+if(sec>0){sec-=1}
 writeTime();
 if(sec<=0&&min>0){sec=60; min-=1; }
 if(min<=0&&hr>0&&sec<=0){ min=59;sec=59; hr-=1; }
 if(sec<=0&&min<=0&&hr<=0){clearInterval(timeTestTime); 
-}
+markIt();}
 }
 
 function timeTest2(){

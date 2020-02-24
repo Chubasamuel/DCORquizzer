@@ -3,7 +3,7 @@ session_start();
 require_once "dbconfig.php";
 $_SESSION['adminLoginErr'] ="";
 $dbuser=DB_USER; $dbpass=DB_PASS;$dbname=DB_NAME;
-$dbtable=DB_TABLE; $dbhost=DB_HOST;
+ $dbhost=DB_HOST;$dbtable=DB_TABLE;
 try{
 $db= new PDO("mysql:host=$dbhost;dbname=$dbname",$dbuser,$dbpass);
 $stmm=$db->prepare("SELECT * FROM $dbtable WHERE email=:usernm");

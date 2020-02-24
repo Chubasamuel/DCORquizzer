@@ -37,9 +37,9 @@ negative marking</span></span><br /><br />
 body{position:absolute; }
 </style>
 <?php
-$file_ques=fopen("./quesAns/mock.ques.txt","r");
+$file_ques=fopen("./quesAns/bch-mock.ques.txt","r");
 
-echo(fread($file_ques,filesize("./quesAns/mock.ques.txt")));
+echo(fread($file_ques,filesize("./quesAns/bch-mock.ques.txt")));
 fclose($file_ques);
 
 ?>
@@ -50,8 +50,8 @@ fclose($file_ques);
 <script src="DCORdiscussionClassTestSettingsHandler.js"></script>  
 <?php
 
-$file_ans=fopen("./quesAns/mock.ans.txt","r");
-echo(fread($file_ans,filesize("./quesAns/mock.ans.txt")));
+$file_ans=fopen("./quesAns/bch-mock.ans.txt","r");
+echo(fread($file_ans,filesize("./quesAns/bch-mock.ans.txt")));
 fclose($file_ans);
 
 
