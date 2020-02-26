@@ -1,4 +1,0 @@
-
-<input type="text" style="display:none" id="answerRefMCQ" value="TTFTFTFFFTF"/>
-
-<input type="text" style="display:none" id="answerRefBOP" value="012"/>

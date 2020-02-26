@@ -22,18 +22,18 @@ if(password_verify($_POST['Password'],$retPwdV)){//echo "logged in";
 
 $_SESSION['user']=$retUsnm;
 $db=null;
-$location="quiz.php";
+$location="list.php";
 $_SESSION['adminLoginErr'] = "Logged In"; 	header("Location:$location");
 
 
 }
 else{$_SESSION['adminLoginErr'] = "<font style='color:red'><br />Not logged In<br />Credentials could not be verified"."<br /></font>"; 
-$location="/quizzer";
+$location="./";
 header("Location:$location");
 }
 }
 catch(PDOException $er){
-$_SESSION['adminLoginPDOErr']= $er->getMessage();$location="/quizzer";
+$_SESSION['adminLoginPDOErr']= $er->getMessage();$location="./";
 header("Location:$location"); }
 
 ?>
