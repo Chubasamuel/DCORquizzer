@@ -22,10 +22,10 @@ for($i=0;$i<=$c-1;$i++){
 	$quizCode=$dir;
 	$quizFormat="Multiple Choice and Best Option";
 	$courses="Anatomy,Medicine,Paediatrics";
-	$quizInstructor="Chuba Samuel";
+	$quizInstructor="Jeremiah Chuba Samuel";
 	$quizDateTime="29-02-2020";
 
-$divOut="<div class=\"list_main_div\" onclick='goToLoc(\"quesAns/$quizCode/index.php\")'\">"."<span class=\"list_quizName\">".$quizName."</span> <span class=\"list_quizCode\"><span class=\"list_label\">Quiz Code: </span>".$quizCode."</span><span class=\"list_quizFormat\"><span class=\"list_label\">Format: </span>".$quizFormat."</span><span class=\"list_courses\"><span class=\"list_label\">Courses: </span>".$courses."</span><span class=\"list_instructor\"><span class=\"list_label\">Instructor: </span>".$quizInstructor."</span><span class=\"list_dateTime\">".$quizDateTime."</span></div>";
+$divOut="<div class=\"list_main_div\" onclick='goToLoc(\"quesAns/$quizCode/index.php\")'\">"."<span class=\"list_quizName\">".$quizName."</span> <span class=\"list_quizCode\"><span class=\"list_label\">Quiz Code: </span>".$quizCode."</span><span class=\"list_quizFormat\"><span class=\"list_label\">Format: </span>".$quizFormat."</span><span class=\"list_courses\"><span class=\"list_label\">Courses: </span>".$courses."</span><span class=\"list_creation\"><span class=\"list_label\">Creation: </span>".$quizDateTime."</span><span class=\"list_instructor\"><span class=\"list_label\">Instructor: </span>".$quizInstructor."</span></div>";
 echo $divOut;
 }
  

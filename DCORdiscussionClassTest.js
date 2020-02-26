@@ -46,9 +46,9 @@ var lagRead=0;
 /*var  kk=qAaMCQ.toString().split("##")[i].split("#"); 
 var kklen=kk.length;*/
 var DCORtempMCQ2=DCORtempMCQ[i].split("#");
-var DCORtempMCQ3=DCORtempMCQ2[0]+"<br />";
+var DCORtempMCQ3="<hr />"+DCORtempMCQ2[0]+"<hr /><br />";
 for(k=1;k<=DCORtempMCQ2.length-1;k++){
-DCORtempMCQ3+=DCORtempMCQ2[k]+"<input type=\"button\" onclick=\"ForMe3(this,\'T\',\'"+i+"Q"+eval(k-1)+"\',"+lagRead+")\" "+" id=\""+"DCORMCQT"+i+"Q"+eval(k-1)+"\""+"style=\"background-color:#C0C0C0\""+"value=\"T\""+" />"+" <input type=\"button\" onclick=\"ForMe3(this,\'F\',\'"+i+"Q"+eval(k-1)+"\',"+lagRead+") \""+" id=\""+"DCORMCQF"+i+"Q"+eval(k-1)+"\""+"style=\"background-color:#C0C0C0\""+" value=\"F\""+" />" ;
+DCORtempMCQ3+=DCORtempMCQ2[k]+"<input type=\"button\" onclick=\"ForMe3(this,\'T\',\'"+i+"Q"+eval(k-1)+"\',"+lagRead+")\" "+" id=\""+"DCORMCQT"+i+"Q"+eval(k-1)+"\""+"value=\"T\""+" />"+" <input type=\"button\" onclick=\"ForMe3(this,\'F\',\'"+i+"Q"+eval(k-1)+"\',"+lagRead+") \""+" id=\""+"DCORMCQF"+i+"Q"+eval(k-1)+"\""+" value=\"F\""+" />" ;
 MCQidHelperArr[lagRead]=i+"Q"+eval(k-1);
 lagRead+=1;}
 qAaMCQ2[i]=DCORtempMCQ3+"<br />";
@@ -235,11 +235,11 @@ var devNm=", &copy; 2017"+yr2+"</font>";
 var devNod=devN.replace(devNn,"").replace(devNm,"");
 function ForMe3(a,b,c,d){try{ 
 optionsArray[d]=b; 
-if(b=="T"){ document.getElementById("DCORMCQF"+c).style.backgroundColor="#C0C0C0"; 
-document.getElementById(a.id).style.backgroundColor="pink"
+if(b=="T"){ document.getElementById("DCORMCQF"+c).style.backgroundColor="#110044"; 
+document.getElementById(a.id).style.backgroundColor="#a9c"
 }
-if(b=="F"){ document.getElementById("DCORMCQT"+c).style.backgroundColor="#C0C0C0"; 
-document.getElementById(a.id).style.backgroundColor="pink"
+if(b=="F"){ document.getElementById("DCORMCQT"+c).style.backgroundColor="#110044"; 
+document.getElementById(a.id).style.backgroundColor="#a9c"
 }
 
 } catch(e){alert(e); } }
@@ -289,7 +289,7 @@ var progressBar = document.getElementById("progress");
 var  display_p = document.getElementById("progress_display");
 function upload_score(data) {
   var xhr = new XMLHttpRequest();
-  xhr.open("POST", "upload_score.php", true);
+  xhr.open("POST", "../../upload_score.php", true);
   if (xhr.upload) {
     xhr.upload.onprogress = function(e) {
       if (e.lengthComputable) {

@@ -5,7 +5,7 @@ body{
 	height:100%;margin:0;
 }
 	#ovAll{
-	background-color:#669999;
+	background-color:#326;
 
 	padding: 1% 5% 5% 5%;
 color:white; font-weight:bold;
@@ -24,15 +24,22 @@ overflow-wrap: break-word;
 
 input,select,textarea{display:block;
 
-margin-top:2%;  }
+margin-top:2%; outline:none; }
 
 
 
 textarea{color:#669999;}
-
+input[type="button"]{
+background-color:#110044;
+color:#fff;
+font-weight:bold;
+border:1px solid #806;
+outline:none;
+}
 input[type="submit"],button{
 
-background-color:#33dbcc; font-weight:bold;
+background-color:#110044;
+/*#33cc99;*/ font-weight:bold;
 
 /*width:70px;
 
@@ -40,13 +47,14 @@ height:50px;
 */
 border-radius:15px;
 
-border:1px solid white;
+border:1px solid #806;
 
 color:white;
-
+margin-top:4px;
+outline:none;
 }
 
-input[type="submit"]:hover, button:hover{background-color:#33cc99; }
+input[type="submit"]:hover, button:hover{background-color:#33dbcc; }
 @media print {
 body {-webkit-print-color-adjust: exact;}
 }
