@@ -22,8 +22,8 @@ for($i=0;$i<=$c-1;$i++){
 	$quizCode=$dir;
 	$quizFormat="Multiple Choice and Best Option";
 	$courses="Anatomy,Medicine,Paediatrics";
-	$quizInstructor="Jeremiah Chuba Samuel";
-	$quizDateTime="29-02-2020";
+	$quizInstructor="Chuba Samuel";
+	$quizDateTime=date("d-m-Y, h:i:sa");
 
 $divOut="<div class=\"list_main_div\" onclick='goToLoc(\"quesAns/$quizCode/index.php\")'\">"."<span class=\"list_quizName\">".$quizName."</span> <span class=\"list_quizCode\"><span class=\"list_label\">Quiz Code: </span>".$quizCode."</span><span class=\"list_quizFormat\"><span class=\"list_label\">Format: </span>".$quizFormat."</span><span class=\"list_courses\"><span class=\"list_label\">Courses: </span>".$courses."</span><span class=\"list_creation\"><span class=\"list_label\">Creation: </span>".$quizDateTime."</span><span class=\"list_instructor\"><span class=\"list_label\">Instructor: </span>".$quizInstructor."</span></div>";
 echo $divOut;
@@ -32,7 +32,7 @@ echo $divOut;
 ?>
 
 </div>
-	<br /><br /><br /><center><div id="footer">&copy; n000dl LLC<br />&copy; DCORsoft Inc<br />&copy; Jeremiah Chuba Samuel</div></center>
+	<br /><br /><br /><center><div id="footer">&copy; DCORsoft Inc<br />&copy; Jeremiah Chuba Samuel</div></center>
 </div>	
 <script src="list.js"></script>
 </body>

@@ -35,12 +35,19 @@ $db=null;
 }
 catch(PDOException $er){
 $errtime=date("d-m-Y , h:i:s a");
-	$fi=fopen("db_err_log.txt","a+");
-	fwrite($fi,"**User**: ".$_SESSION["user"]."\n"."**Error**:  ".$er->getMessage()."\n"."**Time**:".$errtime."\n\n");
+	$fi=fopen("./err_log/db_err_log.txt","a+");
+	fwrite($fi,"**User**: ".$_SESSION["user"]."\n"."**Error**:  ".$er->getMessage()."\n**Quiz Code**:".$_POST["quizCode"]."\n**bestOption**: ".$_POST["bestOption"]."\n**multipleChoice**:".$_POST["multipleChoice"]."\n**scoreBOP**:".$_POST["scoreBOP"]."\n**scoreMCQ**:".$_POST["scoreMCQ"]."\n**scoreOverall_n**:".$_POST["scoreOverall_n"]."\n**scoreOverall**:".$_POST["scoreOverall"]."\n**optionBOP**:".$_POST["optionBOP"]."\n**optionMCQ**:".$_POST["optionMCQ"]."\n**Time**:".$errtime."\n\n");
 	fclose($fi);
 
 	echo($er->getMessage());
 }
 
-} 
+}
+else{
+
+$errtime=date("d-m-Y , h:i:s a");
+	$fi=fopen("./err_log/submit_err_log.txt","a+");
+	fwrite($fi,"**User**: ".$_SESSION["user"]."\n**Quiz Code**:".$_POST["quizCode"]."\n**bestOption**: ".$_POST["bestOption"]."\n**multipleChoice**:".$_POST["multipleChoice"]."\n**scoreBOP**:".$_POST["scoreBOP"]."\n**scoreMCQ**:".$_POST["scoreMCQ"]."\n**scoreOverall_n**:".$_POST["scoreOverall_n"]."\n**scoreOverall**:".$_POST["scoreOverall"]."\n**optionBOP**:".$_POST["optionBOP"]."\n**optionMCQ**:".$_POST["optionMCQ"]."\n**Time**:".$errtime."\n\n");
+	fclose($fi);
+}
 ?>

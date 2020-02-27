@@ -35,7 +35,7 @@ Show Password </b><input type="checkbox" onchange="showPw()" id="pwC" style="dis
 		<input type="submit" value="Submit" />
 		</form> </center>
 
-	<br /><br /><br /><center><div id="footer">&copy; n000dl LLC<br />&copy; DCORsoft Inc<br />&copy; Jeremiah Chuba Samuel</div></center>
+	<br /><br /><br /><center><div id="footer">&copy; DCORsoft Inc<br />&copy; Jeremiah Chuba Samuel</div></center>
 	<script src="valTcF.js"></script>
 </body>
 

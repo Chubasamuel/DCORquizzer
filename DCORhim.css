@@ -1,159 +1,49 @@
 html{
-background-color:#669999;
+background-color:#326;
 
     }
 .DCORhim_login_fieldset{
-
-background-color:#33dbcc;
-  color:white;            }
-.initiallyFaint, form input, form textarea, form select{
+background-color:#110044;
+ color:white;    
+position:fixed; top:30%; left:25%;width:50%;border-radius:25%;border:2px solid #669999;
+}
+.initiallyFaint, form input, form textarea{
 color:#acccaa;
 font-weight:bold;
-               } 
-a:visited{color:blue}
-a:link{color:blue}
-
-#DCORhim_newsDiv{
-width:80%;
-height:70%;
-background-color:white;
-position:absolute;
-right:2px;
-top:20%;
-overflow:auto
-                }
-
-#DCORhim_newsDiv2{
-width:60%;
-height:70%;
-background-color:white;
-position:absolute;
-right:20%;
-top:20%;
-overflow:auto;
-                }
-
-#DCORhim_patientSearchBar{
-position:absolute;
-right:2px;
-top:8.4%;
-                         }
-#DCORhim_toolBar{
-position:absolute;
-left:0px;
-top:0%;
-width:100%;
-height:8%;
-background-color:white;
-                }
-#DCORhim_toolBar span{
+               }
+*{outline:none;}
+a,.label{
+text-decoration:none;
 font-weight:bold;
-position:absolute;
-top:0%;
-height:100%;
-width:9%;
-background-color:#33dbcc;
-color:white;
-border:2px solid #669999;
-
-                     }
-
-#DCORhim_toolBar #DCORhim_toolBar_messages{ 
-left:9%;
+color:#669;
 }
-#DCORhim_toolBar #DCORhim_toolBar_profile{ 
-left:18%;
-
-                }
-#DCORhim_toolBar #DCORhim_toolBar_orders{
-left:27%;
-                                        }
-#DCORhim_toolBar #DCORhim_toolBar_ntAs{
-left:36%;
-                                                }
-#DCORhim_toolBar #DCORhim_toolBar_uploadProduct{
-right:0%;
-                                           }
-
-#DCORhim_toolBar #DCORhim_toolBar_members{
-right:9%;
-                                           }
-
-#DCORhim_menu,#DCORhim_patientSelected_menu1,#DCORhim_patientSelected_menu2{
-position:absolute;
-top:21%;
-width:19%;
-             }
-
-#DCORhim_menu span, #DCORhim_patientSelected_menu1 span{
-font-weight:bold;
-background-color:#33dbcc;
-color:white;
-position:absolute;
-width:100%;
-text-align:center;
-left:-1%;
-
-border:2px solid #669999;
-
-                 }
- #DCORhim_patientSelected_menu2 span{
-font-weight:bold;
-background-color:#33dbcc;
-color:white;
-position:absolute;
-width:100%;
-text-align:center;
-right:0%;
-
-border:2px solid #669999;
-
-                 }
-
-#DCORhim_menu span:hover,#DCORhim_toolBar span:hover,#DCORhim_patientSelected_menu1 span:hover, #DCORhim_patientSelected_menu2 span:hover, input[type="submit"]:hover{
-background-color:#33cc99;
-color:white;
-font-weight:bold;
+a:hover{
+border:2px solid white;
+border-radius:5px;
+color:#110044;
+background-color:#669;
 }
 
-#DCORhim_copyrightLabel{
-position:absolute;
-bottom:3%;
-left:45%;
-font-weight:bold;
-font-size:25px;
-color:white;
-                       }
-#DCORhim_login_loginButton, #DCORhim_home_searchButton,#DCORhim_logoutButton, input[type="submit"]{
-border:2px solid #669999;
- background-color:#33dbcc; 
+
+#DCORhim_login_loginButton, input[type="submit"]{
+border:2px solid #666699;
+ background-color:#110044; 
 color:white;border-radius:6px;
 font-weight:bold; }
 
-#DCORhim_logoutButton{
-position:absolute;
-top:11%;
-right:1px;
-                     }
-
-#DCORhim_patientSelected_menu1{
-position:absolute;
-                             }
-#DCORhim_patientSelected_menu2{
-position:absolute;
-right:0.4%;
-                             }
-#DCORhim_patientSelected_trackingLabel{
-position:absolute;
-font-weight:bold;
-top:17%;
-right:6%;
-font-size:25px;
-color:white;
-
-                                 }
-form input[type="text"], form textarea, form select{
-border:1px solid #669999;
+#DCORhim_login_loginButton:hover, input[type="submit"]:hover{
+background-color:#669;
+border:2px solid white;
+}
+form input[type="text"], form textarea,input[type="email"],input[type="password"]{
+border:2px solid #666699;
+border-radius:5px;
+margin-bottom:3px;
          }
-
+.DCORhim_login{
+	width:40%;
+}
+@media print {
+* {-webkit-print-color-adjust: exact;}
+}
 
