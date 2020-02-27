@@ -1,0 +1,42 @@
+.list_main_div{
+width:100%;
+height:50%;
+border:1px solid #806;
+background-color:#110044;
+margin-bottom:5px;
+border-top-left-radius:30px;
+border-bottom-right-radius:30px;
+}
+.list_main_div:hover{
+background-color:#669;
+border:2px solid white;
+}
+.list_main_div > *{
+	box-sizing:border-box;
+	display:block;
+	text-align:left;
+	padding:2px;
+	font-family:Monospace;
+}
+.list_quizName{
+text-align:center;
+font-size:1.4em;
+color:#7a8;
+font-family:georgia;
+}
+.list_label{
+font-family:verdana;
+float:left;
+background-color:#bbb;
+border-radius:10px;
+color:green;
+font-size:0.7em;
+margin-right:4px;
+/*padding:1px;*/
+padding-right:4px;
+padding-left:4px;
+}
+
+@media print {
+body {-webkit-print-color-adjust: exact;}
+}
